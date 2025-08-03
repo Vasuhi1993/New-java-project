@@ -12,11 +12,11 @@ public class Employee {
 			System.out.println("Employee Name  ...:"+name);
 			
 			}
-		private void empInfo(String Name,int PhoneNumber) {
+		private void empInfo(String Name,long PhoneNumber) {
 			System.out.println("Employee name is ...:"+ "name");
 			System.out.println("Employee Phone Number is:"+PhoneNumber);
 			}
-		private void empInfo(int PhoneNumber, String Name) {
+		private void empInfo(long PhoneNumber, String Name) {
 			
 			System.out.println("Employee Phone Number is:"+PhoneNumber);
 			System.out.println("Employee name is ...:"+"name");
@@ -26,8 +26,8 @@ public class Employee {
 			E.empInfo();
 			E.empInfo(30);
 			E.empInfo("Sri");
-			E.empInfo("Selva,8838340950l");
-			E.empInfo("9894259931l, Varshu");
+			E.empInfo("Guha",8838340950l);
+			E.empInfo(9894259931l,"Guha");
 			
 		}
 
